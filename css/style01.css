@@ -1,0 +1,11 @@
+
+p strong{ /*<p>로 감싼 자손태그 strong태그에만 적용 */
+    border: 1px solid blue;
+
+}
+ul>li{ /*직계자식 요소 li에만 적용*/
+    border: 1px solid rgb(255, 0, 0);
+}
+h1,h2,h3{ /*그룹 선택자*/
+    border: 1px solid rgb(2, 255, 23);
+}
