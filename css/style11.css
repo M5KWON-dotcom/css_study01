@@ -1,0 +1,14 @@
+P{
+    border: 1px solid red;
+    height: 100px;
+}
+span{
+    border: 1px solid rgb(41, 177, 8); /*인라인요소 -> width랑 height가 적용되지않음*/
+     height: 50px;
+     display: inline-block;
+}
+strong,em{
+    border: 1px solid blue;
+     height: 50px;
+     display: block;
+}
