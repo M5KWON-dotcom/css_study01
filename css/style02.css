@@ -31,12 +31,12 @@ border: 1px solid rgb(38, 0, 255);
 margin-top: 10px;
 padding: 5px;
 }*/
-ul li:nth-of-type(odd) {
+ul li:nth-of-type(odd) { /*홀수선택자*/
 border: 1px solid rgb(255, 8, 0);
 margin-top: 10px;
 padding: 5px;
 }
-ul li:nth-of-type(even) {
+ul li:nth-of-type(even) { /*짝수선택자*/
 border: 1px solid rgb(38, 0, 255);
 margin-top: 10px;
 padding: 5px;

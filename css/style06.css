@@ -1,0 +1,10 @@
+p.text1{
+    font-size:20px;
+    border: 1px solid red;
+    line-height: 40px;
+}
+p.text2{
+    font-size:20px;
+    border: 1px  solid rgb(55, 0, 255);
+    line-height: 1.5;
+}
