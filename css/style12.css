@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(223, 209, 162);
+}
+section.sec1{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(63, 63, 63);
+    background-image: url(../img/pattern.png);
+    /*background-repeat: no-repeat; 반복X
+    background-position: center center;
+    background-repeat: repeat-x; 가로 반복
+    background-repeat: repeat-y; 세로 반복*/
+}
+section.sec2{
+    width: 300px;
+    height: 200px;
+    border: 1px solid rgb(63, 63, 63);
+    background-image: url(../img/rose.jpg);
+    background-position: center center;
+    background-size: cover;
+}

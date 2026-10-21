@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+div.wrap{
+    width:800px; /*자식의 height에 맞춰서 늘어남*/
+    margin: 100px auto;
+    border: 5px solid black;
+}
+div.wrap::after{/*가짜요소 추가*/
+   content: '';
+   display: block;
+   clear: both;
+}
+
+div.wrap section.left{
+    width:400px;
+    height: 400px;
+    background-color: rgb(248, 190, 190);
+    float: left;
+}
+div.wrap section.right{
+    width:400px;
+    height: 400px;
+    background-color: rgb(190, 248, 229);
+    float: right;
+}

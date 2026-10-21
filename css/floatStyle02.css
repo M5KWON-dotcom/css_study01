@@ -1,0 +1,14 @@
+ul{
+    list-style: none;
+    background-color: rgb(55, 28, 153);
+    padding: 15px;
+    color:aliceblue;
+    width: 800px;
+    border-radius: 5px;
+    height: 40px;
+}
+li{
+    float: left;
+    margin: 5px;
+    
+}
